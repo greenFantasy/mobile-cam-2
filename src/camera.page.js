@@ -1,10 +1,11 @@
 // src/camera.page.js file
 import React from 'react';
 import { View, Text } from 'react-native';
-import Camera from 'expo';
+import { Camera } from 'expo-camera';
 import * as Permissions from 'expo-permissions'
 
 import styles from './styles';
+//import Toolbar from './toolbar.component';
 
 export default class CameraPage extends React.Component {
     camera = null;
